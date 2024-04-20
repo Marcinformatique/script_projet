@@ -1,13 +1,11 @@
 #!/bin/bash
 
 # ceci est un commentaire
+dg=$(ls -l)
 
-fg=23
+echo "$dg"
 
-echo "$fg"
-
-
-
-
-
-
+if [[ -f "Notes.txt" ]];
+    then
+        echo "C'est bien un fichier"
+    fi
